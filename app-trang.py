@@ -4,8 +4,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return """
-      <h3 style="color:Red;">Trang</h3>
-      <h2 style="color:blue;">Salut les amis ! Ceci est un TP DevOps avec Flask, Git et Jenkins, réalisé par Trang. Apprendre à maîtriser CI/CD. 🚀 !</h2>
+      <h3 style="color:green;">Trang</h3>
+      <h2 style="color:blue;">Salut les amis ! Ceci est un TP DevOps avec Flask, Git et Jenkins, réalisé par Trang.CI/CD validé par Trang ! 🚀 !</h2>
     """
     
 
