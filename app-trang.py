@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello():
     return """
       <h3 style="color:green;">Trang</h3>
-      <h2 style="color:blue;">Salut les amis ! Ceci est un TP DevOps avec Flask, Git et Jenkins, réalisé par Trang.CI/CD validé par Trang ! 🚀 !</h2>
+      <h2 style="color:red;">Salut les amis ! Ceci est un TP DevOps. CI/CD validé par TRang 🚀  !</h2>
     """
     
 
